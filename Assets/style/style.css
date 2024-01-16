@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin-left: 0;
     padding: 0;
     box-sizing: border-box;
     }
@@ -20,19 +20,31 @@ main{
     background-color:rgb(235, 235, 235);
 }
 
+ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .container{
     max-width: 70%;
     margin: auto;
     background-color: white;
     text-align: left;
     padding-left: 25px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     padding-bottom: 5px;
     padding-top: 5px;
-}
-
-ul{
-    list-style: none;
 }
 
 button{
@@ -41,19 +53,19 @@ button{
     text-align: center;
     text-wrap:wrap;
     font-size: 12px;
-    border: 2px;
     border-radius: 5px;
-    border-color: gray;
 }
 
 #usable{
     background-color:#47adf1 ;
     color: white;
+    border: none;
 }
 
 #unusable{
     background-color: white;
     color: gray;
+    border: 2px ridge grey;
 }
 
 .section-title{
@@ -95,4 +107,5 @@ button{
 .check{
     max-width: 20px;
     max-height: 20px;
+    padding-right: 5px ;
 }
