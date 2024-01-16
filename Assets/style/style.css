@@ -17,7 +17,7 @@ header h1{
 }
 
 main{
-    background-color:rgba(100, 100, 100, 0.800);
+    background-color:rgb(200, 200, 200);
 }
 
 .container{
@@ -26,6 +26,7 @@ main{
     background-color: white;
     text-align: left;
     padding-left: 25px;
+    margin-bottom: 2px;
 }
 
 button{
@@ -34,6 +35,7 @@ button{
     text-align: center;
     text-wrap:wrap;
     font-size: 12px;
+    border: 2px;
     border-radius: 5px;
     border-color: gray;
 }
@@ -54,17 +56,35 @@ button{
 }
 
 .category-editorial{
-   color: #45abea;
+   background-color: #45abea;
+   border-radius: 5px;
+   padding: 2px 5px;
+   color: white;
+   font-size: small;
 }
 
 .category-q1-goals{
-    color:#9c72e4
+    background-color:#9c72e4;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+    font-size: small;
 }
 
 .category-recruiting{
-    color: #64bfa9;
+    background-color: #64bfa9;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+    font-size: small;
 }
 
-.cagtegory-mobile{
-    color: #b17426;
+.category-mobile{
+    background-color: #b17426;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+    font-size: small;
 }
+
+.check{}
