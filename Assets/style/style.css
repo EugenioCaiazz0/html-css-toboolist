@@ -27,6 +27,7 @@ main{
     text-align: left;
     padding-left: 25px;
     margin-bottom: 2px;
+    padding-bottom: 10px;
 }
 
 button{
@@ -87,4 +88,23 @@ button{
     font-size: small;
 }
 
-.check{}
+.category-website{
+    background-color:#d863a1;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+    font-size: small;
+}
+
+.category-sales{
+    background-color:#91a521;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+    font-size: small;
+}
+
+.check{
+    max-width: 20px;
+    max-height: 20px;
+}
