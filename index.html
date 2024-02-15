@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>To Boo list</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+<!--Header, andare a vedere centrature-->
+    <header>
+            <img class="logo" src="assets/img/logo copia.png">
+            <!--span class "logo text": toboolist-->
+           <span class="logo-text">Toboolist</span>
+    </header>
+
+    <!--Main diviso in due container dalle stesse caratteristiche-->
+<main>
+ 
+
+ 
+  <div class="container" id="add-btns-container">
+            <button type="button" id="usable"> Add task</button>
+            <button type="button" id="unusable"> Add section</button>
+  </div>
+
+  <div class="container" id="task-container">
+       
+      <!--Varie sezioni per le tipologie di to-do con lista per raggruppare gli elementi e categorie di highlights-->
+        <section id="new-task-section">
+          <div class="section-title">
+            <h3>&#9662 New Task</h3>
+          </div>
+          <p><span class="check green-check">✓</span>Quarterly Newsletter <span class="category editorial"> Editorial</span></p>
+        </section>
+
+        <!--span class apposita per i check e uncheck con ::before li-->
+        <section id="today-section">
+          <div class="section-title">
+            <h3> &#9662 Today</h3>
+          </div>
+          <ul>
+            <li><span class="check green-check">✓</span>Recruiting Blog Post <span class="category editorial"> Editorial</span></li>
+            <li><span class="check green-check">✓</span>Mobile App Launch <span class="category q1-goals">Q1-goals<span></li>
+            <li><span class="check red-check">𐄂</span>Interview John H. <span class="category recruiting"> Recruiting</span></li>
+            <li><span class="check green-check">✓</span>Submit update to mobile storefronts <span class="category mobile"> Mobile</span></li>
+          </ul>
+        </section>
+
+        <section id="upcoming-section">
+            <div class="section-title">
+              <h3> &#9662 Upcoming</h3>
+            </div>
+            <ul>
+              <li><span class="check red-check">𐄂</span>Schedule meeting with Alex</li>
+              <li><span class="check green-check">✓</span>Homepage refresh<span class="category website">Website <span></li>
+              <li><span class="check green-check">✓</span>Onboard new sales team members <span class="category recruiting"> Recruiting</span></li>
+              <li><span class="check green-check">✓</span>Review editorial calendar <span class="category editorial"> Editorial</span></li>
+            </ul>
+        </section>
+
+  </div>
+
+
+</main>
+
+</body>
+</html>
